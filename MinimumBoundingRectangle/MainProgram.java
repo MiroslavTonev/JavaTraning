@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MainProgram {
 
 	public static void main(String[] args) {
-		
+		//http://www.spoj.com/problems/HS12MBR/
 		ArrayList<Circle> circles = new ArrayList<Circle>(); 
 		ArrayList<Point> points = new ArrayList<Point>(); 
 		ArrayList<Line> lines = new ArrayList<Line>(); 
