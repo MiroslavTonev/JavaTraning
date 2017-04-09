@@ -7,7 +7,6 @@ public class Card {
 	private Type type;
 	private int powerInt;
 	
-
 	public Card(Power power, Type type){
 		this.setPower(power);
 		this.setType(type);
@@ -23,7 +22,6 @@ public class Card {
 		return value;
 	}
 	
-
 	public Power getPower() {
 		return power;
 	}
@@ -48,13 +46,10 @@ public class Card {
 		this.powerInt = powerInt;
 	}
 
-
-
 	private void DefineTheValue(){	
 		int currentPower = 0;
 		int typeAsInt = 0; 
-					
-		
+							
 		if(this.power != null){
 			switch(this.power){	
 				case J:
@@ -72,9 +67,7 @@ public class Card {
 			}		
 		}else{
 			currentPower = this.powerInt;			
-		}
-						
-			
+		}									
 			switch(this.type){	
 			case S:
 				typeAsInt = Type.S.getValue();

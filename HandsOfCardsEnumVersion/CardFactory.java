@@ -26,8 +26,6 @@ public  class CardFactory {
 		}
 		
 		typeChar = input.toLowerCase().charAt(1);
-		
-		
 								
 		switch(powerChar){	
 		case 'j':
