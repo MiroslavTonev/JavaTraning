@@ -1,5 +1,7 @@
 package Interfaces;
 
-public interface ICardCreatable {
+import HandsOfCardsEnumVersion.Card;
 
+public interface ICardCreatable {
+	public Card MadeCard(String input);
 }
