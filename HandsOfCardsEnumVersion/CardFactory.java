@@ -3,7 +3,9 @@ package HandsOfCardsEnumVersion;
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
 
-public  class CardFactory {
+import Interfaces.ICardCreatable;
+
+public  class CardFactory implements ICardCreatable{
 	
 	public CardFactory(){}
 	

@@ -3,8 +3,10 @@ package HandsOfCardsEnumVersion;
 
 import java.util.ArrayList;
 
+import Interfaces.ICardsHoldable;
 
-public class CardSet {
+
+public class CardSet implements ICardsHoldable{
 	private ArrayList<Card> cards;
 	private int cardSetValue;
 	
